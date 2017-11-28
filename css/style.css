@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: .14rem; }
+
+html, body, .box {
+  width: 100%;
+  height: 100%; }
+
+html {
+  font-size: 625%; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+
+em, i {
+  font-style: normal; }
+
+ul li, ol li {
+  list-style: none; }
+
+h1, h2, h3, h4, h5, h6, b, strong {
+  font-weight: normal; }
+
+.box {
+  display: flex;
+  flex-direction: column; }
+
+header {
+  width: 100%;
+  height: .4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #999; }
+  header a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #999; }
+    header a:nth-child(1) {
+      flex: 2; }
+    header a:nth-child(2) {
+      flex: 6;
+      height: .3rem;
+      position: relative; }
+      header a:nth-child(2) input {
+        width: 100%;
+        height: .25rem;
+        border: none;
+        border-radius: .5rem;
+        background: #f0f1eb;
+        outline: none;
+        padding-left: .3rem; }
+      header a:nth-child(2) i {
+        position: absolute;
+        left: .1rem; }
+    header a:nth-child(3) {
+      flex: 2;
+      display: flex;
+      flex-direction: column; }
+
+section {
+  width: 100%;
+  flex: 1;
+  overflow-y: scroll;
+  background: #eee; }
+  section .banner {
+    width: 100%; }
+    section .banner img {
+      width: 100%; }
+  section .list {
+    width: 100%;
+    padding: .1rem;
+    background: #fff; }
+    section .list .swiper-slide {
+      display: flex;
+      flex-wrap: wrap;
+      padding-bottom: .1rem; }
+      section .list .swiper-slide li {
+        width: 20%;
+        padding-top: .1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        list-style: none; }
+        section .list .swiper-slide li span {
+          width: 100%;
+          text-align: center;
+          padding-top: .1rem;
+          font-size: .08rem;
+          color: #666; }
+        section .list .swiper-slide li i {
+          width: .4rem;
+          height: .4rem;
+          border-radius: 50%;
+          text-align: center;
+          line-height: .4rem;
+          font-size: .25rem;
+          color: #fff; }
+  section .bot {
+    margin-top: .1rem;
+    background: #fff;
+    display: flex; }
+    section .bot dl {
+      flex: 1;
+      padding: .1rem; }
+      section .bot dl:nth-child(1) {
+        border-right: .001rem solid #ccc;
+        margin: .1rem 0; }
+        section .bot dl:nth-child(1) dt {
+          margin-top: .1rem; }
+        section .bot dl:nth-child(1) dd h2 {
+          font-size: .17rem;
+          color: #55a40f;
+          padding-bottom: .15rem; }
+        section .bot dl:nth-child(1) dd p {
+          font-size: .13rem;
+          color: #999; }
+      section .bot dl:nth-child(2) {
+        border-right: .001rem solid #ccc;
+        margin: .1rem 0; }
+        section .bot dl:nth-child(2) dt {
+          margin-top: .1rem; }
+        section .bot dl:nth-child(2) dd h2 {
+          font-size: .17rem;
+          color: #ff4110;
+          padding-bottom: .15rem; }
+        section .bot dl:nth-child(2) dd p {
+          font-size: .13rem;
+          color: #999; }
+      section .bot dl:nth-child(3) {
+        border-right: .001rem solid #ccc;
+        margin: .1rem 0; }
+        section .bot dl:nth-child(3) dt {
+          margin-top: .1rem; }
+        section .bot dl:nth-child(3) dd h2 {
+          font-size: .17rem;
+          color: #f742a0;
+          padding-bottom: .15rem; }
+        section .bot dl:nth-child(3) dd p {
+          font-size: .13rem;
+          color: #999; }
+
+/*# sourceMappingURL=style.css.map */
